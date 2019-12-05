@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration standards="'d:/business/dropbox/openserver/modules/php/PHP-5.6/ext/php_imagick.dll';-;0;MySource;PEAR;PHP;PHPCS;PSR1;PSR2;Squiz;Startup:;Unable;Unknown;Warning:;Zend;dynamic;in;library;line;load;on;to;Не;модуль.;найден;указанный" tool_path="D:/Business/Dropbox/OpenServer/modules/php/PHP-5.6/PEAR/phpcs" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+</project>
