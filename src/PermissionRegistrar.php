@@ -120,11 +120,7 @@ class PermissionRegistrar
     public function getPermissions(array $params = []): Collection
     {
         if ($this->permissions === null) {
-            $base = resolve(ApiController::class);
-            $oProfile = $base->getProfile(Auth::user());
-            $this->permissions = $this->getPermissionClass()->with(['roles' => function ($query) use ($oProfile) {
-                $query->where('profileID', $oProfile->profileID);
-            }])->get();
+            $this->permissions = $this->getPermissionClass()->get();
         }
 
 //        if ($this->permissions === null) {

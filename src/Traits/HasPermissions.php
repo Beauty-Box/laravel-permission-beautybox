@@ -2,6 +2,7 @@
 
 namespace Spatie\Permission\Traits;
 
+use Beauty\Modules\Api\Controllers\ApiController;
 use Spatie\Permission\Guard;
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Builder;
@@ -137,6 +138,12 @@ trait HasPermissions
         if (! $permission instanceof Permission) {
             throw new PermissionDoesNotExist;
         }
+
+        $base = resolve(ApiController::class);
+        $oProfile = $base->getProfile($this);
+        $permission->load(['roles' => function ($query) use ($oProfile) {
+            $query->where('profileID', $oProfile->profileID);
+        }])->get();
 
         return $this->hasDirectPermission($permission) || $this->hasPermissionViaRole($permission);
     }
