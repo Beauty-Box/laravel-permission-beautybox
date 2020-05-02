@@ -2,6 +2,7 @@
 
 namespace Spatie\Permission\Traits;
 
+use Beauty\Modules\Common\Objects\Profile\Profile as Profiles;
 use Spatie\Permission\Guard;
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Builder;
@@ -133,8 +134,10 @@ trait HasPermissions
             throw new PermissionDoesNotExist;
         }
 
-        $base = resolve(ApiController::class);
-        $oProfile = $base->getProfile($this);
+//        $base = resolve(ApiController::class);
+//        $oProfile = $base->getProfile($this);
+        $profile = new Profiles($this);
+        $oProfile = $profile->profile();
         if (
             $this->getRoleNames()->first() === RoleBeauty::CLIENT ||
             $this->getRoleNames()->first() === RoleBeauty::MASTER ||

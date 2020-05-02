@@ -2,89 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f87eb8f-28ba-4c18-b7d0-f3ce3e3fb75b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/advanced-usage/timestamps.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/advanced-usage/uuid.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/basic-usage/new-app.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/basic-usage/wildcard-permissions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/best-practices/performance.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/prerequisites.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/support-us.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/WildcardPermissionInvalidArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/WildcardPermissionNotProperlyFormatted.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WildcardPermission.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/BladeTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CacheTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CommandTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/GateTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/HasPermissionsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/HasRolesTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Manager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/MiddlewareTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/MultipleGuardsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PermissionTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/RoleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/RouteTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/SoftDeletingUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/WildcardHasPermissionsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/WildcardMiddlewareTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/WildcardRoleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/WildcardRouteTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/resources/views/can.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/resources/views/guardHasAllRoles.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/resources/views/guardHasAllRolesPipe.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/resources/views/guardHasAnyRole.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/resources/views/guardHasAnyRolePipe.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/resources/views/guardHasRole.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/resources/views/guardRole.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/resources/views/guardunlessrole.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/resources/views/hasAllRoles.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/resources/views/hasAnyRole.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/resources/views/hasRole.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/resources/views/role.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/resources/views/unlessrole.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravel-permission-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-permission-master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/permission.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/create_permission_tables.php.stub" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/create_permission_tables.php.stub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about-us.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about-us.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/advanced-usage/cache.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/advanced-usage/cache.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/advanced-usage/exceptions.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/advanced-usage/exceptions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/advanced-usage/extending.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/advanced-usage/extending.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/advanced-usage/phpstorm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/advanced-usage/phpstorm.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/advanced-usage/ui-options.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/advanced-usage/ui-options.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/basic-usage/artisan.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic-usage/artisan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/basic-usage/basic-usage.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic-usage/basic-usage.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/basic-usage/blade-directives.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic-usage/blade-directives.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/basic-usage/middleware.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic-usage/middleware.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/basic-usage/multiple-guards.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic-usage/multiple-guards.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/basic-usage/role-permissions.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic-usage/role-permissions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/basic-usage/super-admin.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic-usage/super-admin.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/best-practices/roles-vs-permissions.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/best-practices/roles-vs-permissions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/best-practices/using-policies.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/best-practices/using-policies.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/changelog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/installation-laravel.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/installation-laravel.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/installation-lumen.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/installation-lumen.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/postcardware.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions-issues.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions-issues.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/upgrading.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/upgrading.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Commands/CreateRole.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/CreateRole.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/PermissionDoesNotExist.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/PermissionDoesNotExist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Guard.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Guard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Role.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PermissionRegistrar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PermissionRegistrar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PermissionServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PermissionServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/HasPermissions.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/HasPermissions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/HasRoles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/HasRoles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +71,7 @@
       <updated>1575531754357</updated>
       <workItem from="1575531755612" duration="1731000" />
       <workItem from="1576474485827" duration="4819000" />
-      <workItem from="1588412780755" duration="272000" />
+      <workItem from="1588412780755" duration="1040000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1575532010807</created>
@@ -190,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576482507355</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="second">
+      <created>1588413244211</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588413244211</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +137,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="second" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="522" y="67" width="865" height="917" key="CommitChangelistDialog2" timestamp="1588413244098">
+      <screen x="0" y="27" width="1920" height="1000" />
+    </state>
+    <state x="522" y="67" width="865" height="917" key="CommitChangelistDialog2/0.27.1920.1000/1920.0.1920.1080@0.27.1920.1000" timestamp="1588413244098" />
     <state x="1920" y="113" width="1720" height="802" key="DiffContextDialog" timestamp="1588413234541">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -220,5 +149,9 @@
       <screen x="0" y="27" width="1920" height="1000" />
     </state>
     <state width="218" height="341" key="Git.Branch.Popup/0.27.1920.1000/1920.0.1920.1080@0.27.1920.1000" timestamp="1588412795295" />
+    <state x="555" y="262" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588413317357">
+      <screen x="0" y="27" width="1920" height="1000" />
+    </state>
+    <state x="555" y="262" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1000/1920.0.1920.1080@0.27.1920.1000" timestamp="1588413317357" />
   </component>
 </project>
