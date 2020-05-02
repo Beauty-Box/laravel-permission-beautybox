@@ -1,8 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f87eb8f-28ba-4c18-b7d0-f3ce3e3fb75b" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="2f87eb8f-28ba-4c18-b7d0-f3ce3e3fb75b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/advanced-usage/timestamps.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/advanced-usage/uuid.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basic-usage/new-app.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basic-usage/wildcard-permissions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/best-practices/performance.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/prerequisites.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/support-us.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/WildcardPermissionInvalidArgument.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/WildcardPermissionNotProperlyFormatted.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WildcardPermission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BladeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/CacheTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/CommandTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/GateTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/HasPermissionsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/HasRolesTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Manager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/MiddlewareTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/MultipleGuardsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/PermissionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/RoleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/RouteTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/SoftDeletingUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/WildcardHasPermissionsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/WildcardMiddlewareTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/WildcardRoleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/WildcardRouteTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/resources/views/can.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/resources/views/guardHasAllRoles.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/resources/views/guardHasAllRolesPipe.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/resources/views/guardHasAnyRole.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/resources/views/guardHasAnyRolePipe.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/resources/views/guardHasRole.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/resources/views/guardRole.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/resources/views/guardunlessrole.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/resources/views/hasAllRoles.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/resources/views/hasAnyRole.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/resources/views/hasRole.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/resources/views/role.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/resources/views/unlessrole.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-permission-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-permission-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/permission.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/create_permission_tables.php.stub" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/create_permission_tables.php.stub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/about-us.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about-us.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/advanced-usage/cache.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/advanced-usage/cache.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/advanced-usage/exceptions.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/advanced-usage/exceptions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/advanced-usage/extending.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/advanced-usage/extending.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/advanced-usage/phpstorm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/advanced-usage/phpstorm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/advanced-usage/ui-options.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/advanced-usage/ui-options.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/basic-usage/artisan.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic-usage/artisan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/basic-usage/basic-usage.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic-usage/basic-usage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/basic-usage/blade-directives.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic-usage/blade-directives.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/basic-usage/middleware.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic-usage/middleware.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/basic-usage/multiple-guards.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic-usage/multiple-guards.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/basic-usage/role-permissions.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic-usage/role-permissions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/basic-usage/super-admin.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic-usage/super-admin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/best-practices/roles-vs-permissions.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/best-practices/roles-vs-permissions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/best-practices/using-policies.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/best-practices/using-policies.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/installation-laravel.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/installation-laravel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/installation-lumen.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/installation-lumen.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/introduction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/postcardware.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/questions-issues.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions-issues.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/upgrading.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/upgrading.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/CreateRole.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/CreateRole.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/PermissionDoesNotExist.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/PermissionDoesNotExist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Guard.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Guard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PermissionRegistrar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PermissionRegistrar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PermissionServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PermissionServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Traits/HasPermissions.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/HasPermissions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Traits/HasRoles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/HasRoles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,95 +111,22 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PermissionRegistrar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="129" column="30" lean-forward="true" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
-              <folding>
-                <element signature="e#37#86#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Traits/HasPermissions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="141" column="30" lean-forward="true" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
-              <folding>
-                <element signature="e#44#93#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Traits/HasPermissions.php" />
-        <option value="$PROJECT_DIR$/src/PermissionRegistrar.php" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1bLYKolR99r4jJnvI1fybrTimi5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-2" />
-    <option name="width" value="1920" />
-    <option name="height" value="1035" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="laravel-permission-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-permission-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-permission-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-permission-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-permission-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-permission-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Traits" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -126,17 +136,10 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -150,6 +153,7 @@
       <updated>1575531754357</updated>
       <workItem from="1575531755612" duration="1731000" />
       <workItem from="1576474485827" duration="4819000" />
+      <workItem from="1588412780755" duration="272000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1575532010807</created>
@@ -189,74 +193,32 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7166000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1920" height="1035" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13447171" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3289183" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.5717439" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.19205298" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.60816777" />
-      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3289183" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.4392936" />
-      <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="right" id="make" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.078975454" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second" />
     <option name="LAST_COMMIT_MESSAGE" value="second" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.github/FUNDING.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Traits/HasPermissions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="141" column="30" lean-forward="true" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
-          <folding>
-            <element signature="e#44#93#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PermissionRegistrar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="129" column="30" lean-forward="true" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
-          <folding>
-            <element signature="e#37#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="1920" y="113" width="1720" height="802" key="DiffContextDialog" timestamp="1588413234541">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1920" y="113" width="1720" height="802" key="DiffContextDialog/0.27.1920.1000/1920.0.1920.1080@0.27.1920.1000" timestamp="1588413234541" />
+    <state width="218" height="341" key="Git.Branch.Popup" timestamp="1588412795295">
+      <screen x="0" y="27" width="1920" height="1000" />
+    </state>
+    <state width="218" height="341" key="Git.Branch.Popup/0.27.1920.1000/1920.0.1920.1080@0.27.1920.1000" timestamp="1588412795295" />
   </component>
 </project>

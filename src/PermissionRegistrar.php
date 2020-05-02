@@ -2,10 +2,8 @@
 
 namespace Spatie\Permission;
 
-use Beauty\Modules\Api\Controllers\ApiController;
 use Illuminate\Cache\CacheManager;
 use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\Auth;
 use Spatie\Permission\Contracts\Role;
 use Illuminate\Contracts\Auth\Access\Gate;
 use Spatie\Permission\Contracts\Permission;
@@ -13,9 +11,6 @@ use Illuminate\Contracts\Auth\Access\Authorizable;
 
 class PermissionRegistrar
 {
-    /** @var \Illuminate\Contracts\Auth\Access\Gate */
-    protected $gate;
-
     /** @var \Illuminate\Contracts\Cache\Repository */
     protected $cache;
 
@@ -31,7 +26,7 @@ class PermissionRegistrar
     /** @var \Illuminate\Support\Collection */
     protected $permissions;
 
-    /** @var DateInterval|int */
+    /** @var \DateInterval|int */
     public static $cacheExpirationTime;
 
     /** @var string */
@@ -43,12 +38,10 @@ class PermissionRegistrar
     /**
      * PermissionRegistrar constructor.
      *
-     * @param \Illuminate\Contracts\Auth\Access\Gate $gate
      * @param \Illuminate\Cache\CacheManager $cacheManager
      */
-    public function __construct(Gate $gate, CacheManager $cacheManager)
+    public function __construct(CacheManager $cacheManager)
     {
-        $this->gate = $gate;
         $this->permissionClass = config('permission.models.permission');
         $this->roleClass = config('permission.models.role');
 
@@ -86,12 +79,13 @@ class PermissionRegistrar
 
     /**
      * Register the permission check method on the gate.
+     * We resolve the Gate fresh here, for benefit of long-running instances.
      *
      * @return bool
      */
     public function registerPermissions(): bool
     {
-        $this->gate->before(function (Authorizable $user, string $ability) {
+        app(Gate::class)->before(function (Authorizable $user, string $ability) {
             if (method_exists($user, 'checkPermissionTo')) {
                 return $user->checkPermissionTo($ability) ?: null;
             }
@@ -108,6 +102,16 @@ class PermissionRegistrar
         $this->permissions = null;
 
         return $this->cache->forget(self::$cacheKey);
+    }
+
+    /**
+     * Clear class permissions.
+     * This is only intended to be called by the PermissionServiceProvider on boot,
+     * so that long-running instances like Swoole don't keep old data in memory.
+     */
+    public function clearClassPermissions()
+    {
+        $this->permissions = null;
     }
 
     /**
