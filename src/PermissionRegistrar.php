@@ -2,7 +2,6 @@
 
 namespace Spatie\Permission;
 
-use Beauty\Modules\Api\Controllers\ApiController;
 use Illuminate\Cache\CacheManager;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;

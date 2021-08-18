@@ -2,7 +2,7 @@
 
 namespace Spatie\Permission\Traits;
 
-use Beauty\Modules\Api\Controllers\ApiController;
+use Beauty\Modules\Auth\Controllers\ApiController;
 use Beauty\Modules\Common\Models\Role as RoleBeauty;
 use Spatie\Permission\Guard;
 use Illuminate\Support\Collection;
